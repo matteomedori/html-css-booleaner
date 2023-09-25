@@ -34,7 +34,7 @@ section {
   color: grey;
 }
 
-span {
+#autore-articolo {
   color: #43b7e9;
   font-weight: bold;
 }
@@ -52,4 +52,44 @@ span {
 .descrizione-img {
   font-size: 20px;
   font-weight: bold;
+}
+
+p,
+ul {
+  font-size: 50px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+ul {
+  margin-top: 70px;
+}
+
+table {
+  font-size: 50px;
+}
+
+.primacol {
+  width: 700px;
+  padding-left: 0;
+}
+
+.secondacol {
+  width: 700px;
+}
+
+table {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+thead {
+  background-color: #20a9e5;
+  color: white;
+}
+
+.riga-pari {
+  background-color: #b1e5f2;
 }
