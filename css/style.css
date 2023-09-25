@@ -19,3 +19,37 @@ header {
   font-size: 70px;
   padding-top: 0;
 }
+
+/* Main */
+section {
+  margin-top: 40px;
+}
+
+#titolo-articolo {
+  font-size: 100px;
+}
+
+#scritto-da {
+  font-size: 30px;
+  color: grey;
+}
+
+span {
+  color: #43b7e9;
+  font-weight: bold;
+}
+
+#data-articolo {
+  font-size: 20px;
+  color: grey;
+}
+
+.img-inizio-pag {
+  width: 1100px;
+  height: 900px;
+}
+
+.descrizione-img {
+  font-size: 20px;
+  font-weight: bold;
+}
