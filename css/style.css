@@ -104,6 +104,18 @@ footer {
   font-weight: bold;
 }
 
-.img-finali {
+.img-finale {
   display: block;
+  width: 600px;
+  margin-bottom: 20px;
+}
+.testo-img-finale {
+  position: relative;
+}
+.testo {
+  position: absolute;
+  color: white;
+  top: 25px;
+  left: 25px;
+  font-size: 50px;
 }
