@@ -93,3 +93,17 @@ thead {
 .riga-pari {
   background-color: #b1e5f2;
 }
+
+/* FOOTER */
+footer {
+  margin-top: 50px;
+}
+#testo-footer {
+  font-size: 50px;
+  color: rgb(111, 111, 111);
+  font-weight: bold;
+}
+
+.img-finali {
+  display: block;
+}
