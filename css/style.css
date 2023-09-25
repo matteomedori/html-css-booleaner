@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+/* Header */
+header {
+  height: 150px;
+  background-color: #4ea0ff;
+  background-image: url(../img/pattern.png);
+  color: white;
+}
+
+#the {
+  margin-left: 70px;
+  font-size: 30px;
+}
+
+#booleaner {
+  font-size: 70px;
+  padding-top: 0;
+}
