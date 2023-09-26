@@ -1,65 +1,59 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
-/* Header */
+/*----------- Header ------------*/
 header {
-  height: 150px;
   background-color: #4ea0ff;
-  background-image: url(../img/pattern.png);
-  color: white;
+  background-image: url("../img/pattern.png");
+  padding-top: 40px;
+  padding-left: 10px;
+  background-size: 22%;
+  margin-bottom: 20px;
 }
 
-#the {
-  position: absolute;
-  font-size: 30px;
-  top: 60px;
-  left: 50px;
+#logo {
+  height: 50px;
 }
 
-#booleaner {
-  position: absolute;
-  font-size: 70px;
-  top: 70px;
-}
-
-/* Main */
-section {
-  margin-top: 40px;
-}
-
+/*------------- Main -----------*/
+/*sezione: titolo articolo + info*/
 #titolo-articolo {
-  font-size: 100px;
+  font-size: 80px;
+}
+
+#scritto-da,
+#data-articolo {
+  color: grey;
 }
 
 #scritto-da {
   font-size: 30px;
-  color: grey;
 }
 
 #autore-articolo {
   color: #43b7e9;
-  font-weight: bold;
 }
 
 #data-articolo {
   font-size: 20px;
-  color: grey;
 }
 
-.img-inizio-pag {
-  width: 1100px;
-  height: 900px;
+/*sezione:immagini autore*/
+.immagini-autore {
+  margin-top: 20px;
 }
 
-.descrizione-img {
+.caption {
   font-size: 20px;
-  font-weight: bold;
 }
 
+/*sezione:primo paragrafo + elenco puntato*/
 p,
-ul {
-  font-size: 50px;
+ul,
+table {
+  font-size: 30px;
 }
 
 p {
@@ -68,24 +62,16 @@ p {
 
 ul {
   margin-top: 70px;
+  padding-left: 50px;
 }
 
-table {
-  font-size: 50px;
-}
-
-.primacol {
-  width: 700px;
-  padding-left: 0;
-}
-
-.secondacol {
-  width: 700px;
-}
-
+/*sezione:tabella*/
 table {
   margin-top: 70px;
   margin-bottom: 50px;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 30px;
 }
 
 thead {
@@ -97,28 +83,40 @@ thead {
   background-color: #b1e5f2;
 }
 
-/* FOOTER */
+.terza-colonna {
+  width: 50%;
+}
+
+/*-------------- FOOTER --------------*/
 footer {
   margin-top: 50px;
 }
+
 #testo-footer {
-  font-size: 50px;
+  font-size: 30px;
   color: rgb(111, 111, 111);
-  font-weight: bold;
 }
 
 .img-finale {
-  display: block;
-  width: 600px;
-  margin-bottom: 20px;
-}
-.testo-img-finale {
-  position: relative;
-}
-.testo {
-  position: absolute;
+  width: 400px;
+  height: 250px;
+  background-color: aqua;
+  margin-top: 10px;
   color: white;
-  top: 25px;
-  left: 25px;
-  font-size: 50px;
+  font-size: 40px;
+  padding: 20px 10px 0px 20px;
+  font-weight: bold;
+}
+
+#img-1,
+#img-2 {
+  background-size: cover;
+}
+
+#img-1 {
+  background-image: url("../img/monitor.jpg");
+}
+
+#img-2 {
+  background-image: url("../img/graph.jpg");
 }
